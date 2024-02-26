@@ -4,8 +4,10 @@
 }
 
 body{
-    background-color: rgb(32, 31, 31);
+    background-color: #010314;
     color: aliceblue;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
 
 nav{
@@ -30,4 +32,30 @@ nav>ul{
 
 nav>ul>li>h1{
     font-size: 24px;
+}
+
+.signinupbtn{
+    background-color: #010314;
+    color: aliceblue;
+    padding: 16px 40px 16px 40px;
+    border: 1.5px solid #4467FF;
+    border-radius: 40px;
+}
+
+.hero-box-1{
+    margin: 0 100px 0 100px;
+    /* border: 1px solid white; */
+    height: 100vh;
+    border-radius: 50px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(102, 51, 238, 1) 0%, rgba(0, 0, 0, 1) 52%);
+}
+
+.box-1-text{
+    text-align: center;
+    margin-top: 220px;
+}
+
+.text-1{
+    letter-spacing: 3px;
+    color: #4467FF;
 }
